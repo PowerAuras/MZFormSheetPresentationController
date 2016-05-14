@@ -23,8 +23,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-@import UIKit;
-
+//@import UIKit;
+#import <UIKit/UIKit.h>
 @protocol MZFormSheetPresentationViewControllerAnimatedTransitioning <UIViewControllerAnimatedTransitioning>
 @property (nonatomic, assign, getter=isPresenting) BOOL presenting;
 @property (nonatomic, assign, getter=isInteractive) BOOL interactive;

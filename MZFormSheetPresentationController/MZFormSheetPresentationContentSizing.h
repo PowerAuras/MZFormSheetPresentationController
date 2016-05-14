@@ -24,8 +24,8 @@
 //  THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-@import UIKit;
-
+//@import UIKit;
+#import <UIKit/UIKit.h>
 @class MZFormSheetPresentationController;
 
 @protocol MZFormSheetPresentationContentSizing <NSObject>
